@@ -1,3 +1,7 @@
+[build]
+publish = "docs/public"
+command = "make doc"
+
 THEME_VERSION := v0.8.2
 THEME := hugo-geekdoc
 BASEDIR := docs
